@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Profile Book</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay"><div class="loading-spinner"></div></div>
+
+    <header class="hero container" id="top">
+        <img src="images/hero.jpg" alt="" class="hero-img">
+        <h1 class="hero-title">Loading...</h1>
+        <p class="hero-date"></p>
+    </header>
+
+    <section class="container" id="greeting">
+        <h2 class="section-title">Greeting</h2>
+        <div class="greeting-text"></div>
+    </section>
+
+    <section class="container" id="profile">
+        <h2 class="section-title">Profile</h2>
+        <div id="profile-list"></div> </section>
+
+    <section class="container" id="biography">
+        <h2 class="section-title">Biography</h2>
+        <div class="bio-tabs">
+            <button class="tab-btn active" data-target="yuki-bio">Yuki's Path</button>
+            <button class="tab-btn" data-target="moka-bio">Moka's Path</button>
+        </div>
+        <div id="yuki-bio" class="bio-content active"><div class="timeline" id="yuki-bio-list"></div></div>
+        <div id="moka-bio" class="bio-content"><div class="timeline" id="moka-bio-list"></div></div>
+    </section>
+
+    <section class="container" id="story">
+        <h2 class="section-title">Our Story</h2>
+        <div id="story-list"></div> </section>
+
+    </body>
+</html>

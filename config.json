@@ -1,0 +1,48 @@
+{
+  "sliders": {
+    "memories": { "folder": "images/memories", "count": 5 },
+    "preshoot": { "folder": "images/preshoot", "count": 7 }
+  },
+  "content": {
+    "hero": {
+      "names": "Yuki & Moka",
+      "date": "2026.04.11",
+      "venue": "Hotel Chinzanso Tokyo"
+    },
+    "greeting": {
+      "title": "Greeting",
+      "text": "本日はご多用の中<br>私たちの結婚式にご参列いただき<br>誠にありがとうございます。<br><br>皆様に支えられ<br>今日という日を迎えることができました。<br><br>ささやかながら<br>感謝の気持ちを込めて<br>プロフィールブックを作成しました。<br><br>どうぞごゆっくりお楽しみください。"
+    },
+    "profiles": [
+      {
+        "id": "yuki",
+        "name": "Yuki Goto",
+        "image": "images/profile/yuki.jpg",
+        "desc": "1998年生まれ、岡山県出身。<br>趣味は温泉に入ったり、ゆっくりすること。<br>休日はお家でだらだらと過ごしています。<br>一言：今日は最高の1日にしましょう！"
+      },
+      {
+        "id": "moka",
+        "name": "Moka Ishii",
+        "image": "images/profile/moka.jpg",
+        "desc": "1999年生まれ、東京都出身。<br>趣味はライブに行くこと。<br>のんびりしているように見えて、黒帯を持っています。<br>一言：たくさん写真を撮ってくださいね♪"
+      }
+    ],
+    "biography": {
+      "yuki": [
+        { "year": "1998", "title": "Born in Okayama", "text": "岡山県の豊かな自然の中で誕生。「優しく、誠実な子に」と名付けられる。" },
+        { "year": "2005", "title": "Little Baseball Player", "text": "地元の野球チームに入団。ポジションはショート。" },
+        { "year": "2017", "title": "Moving to Tokyo", "text": "大学進学を機に上京。デザインの面白さに目覚める。" }
+      ],
+      "moka": [
+        { "year": "1999", "title": "Born in Tokyo", "text": "東京の賑やかな街で誕生。赤ちゃんの頃から踊りだす活発な子。" },
+        { "year": "2006", "title": "The Way of Aikido", "text": "祖父の影響で合気道を始める。畳の上では真剣そのもの。" },
+        { "year": "2018", "title": "Music and Café Culture", "text": "大学時代、軽音楽部でベースを担当。" }
+      ]
+    },
+    "story": [
+      { "date": "2023.03.17", "title": "The Day We Started Dating", "text": "二人でチームラボと月島へお出かけ。<br>この日、私たちは付き合い始めました。", "image": "images/story/01.jpg" },
+      { "date": "2024.12.25", "title": "Proposal", "text": "新居への入居日、プロポーズしました。", "image": "images/story/02.jpg" },
+      { "date": "2024.12.25", "title": "We Got Married", "text": "2024年のクリスマスに婚姻届を提出しました。", "image": "images/story/03.jpg" }
+    ]
+  }
+}
